@@ -46,6 +46,18 @@ function Navbar() {
             <li>
               <a
                 className="nav-link"
+                href="#project"
+                onClick={() => {
+                  setShowlinks(!showlinks);
+                  handleSidebar();
+                }}
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                className="nav-link"
                 href="#contact"
                 onClick={() => {
                   setShowlinks(!showlinks);
@@ -80,6 +92,9 @@ function Navbar() {
             </li>
             <li className="hideOnMobile">
               <a href="#skills">Skills</a>
+            </li>
+            <li className="hideOnMobile">
+              <a href="#project">Projects</a>
             </li>
             <li className="hideOnMobile">
               <a href="#contact">Contact</a>
