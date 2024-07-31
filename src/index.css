@@ -306,7 +306,7 @@ nav a:hover {
   #skills {
     padding: 50px 16%;
   }
-  .contact{
+  .contact {
     padding: 9rem 16%;
   }
   .contact-div ul {
@@ -319,6 +319,15 @@ nav a:hover {
   }
   .responsive-nav {
     display: flex;
+  }
+  #project {
+    padding: 50px 14%;
+  }
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
   }
 }
 @media (max-width: 425px) {
@@ -382,6 +391,9 @@ nav a:hover {
   .contact ul li a {
     font-size: 0.8rem;
   }
+  #project {
+    padding: 50px 7%;
+  }
 }
 @media (max-width: 375px) {
   .right-about img {
@@ -396,6 +408,9 @@ nav a:hover {
     position: absolute;
     top: -8px;
     left: 50px;
+  }
+  #project {
+    padding: 50px 7%;
   }
 }
 @media (max-width: 320px) {
@@ -420,8 +435,48 @@ nav a:hover {
     top: -8px;
     left: 40px;
   }
+  #project {
+    padding: 50px 7%;
+  }
 }
 ion-icon {
   font-size: 1.2rem;
   margin-right: 4px;
+}
+
+#project {
+  padding: 50px 21.999%;
+}
+
+.project1 {
+  display: flex;
+  gap: 15px;
+}
+.project-img {
+  border: 10px solid #f2f7ff;
+  border-radius: 12px;
+}
+.project-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.project-info h2 {
+  font-size: 1.5rem;
+  color: #015774;
+  margin: 5px 0px;
+}
+.project-info p {
+  font-size: 0.9rem;
+}
+.project-info a {
+  text-decoration: none;
+  background-color: #82bff7;
+  border: none;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 8px;
+  color: #002126;
 }
