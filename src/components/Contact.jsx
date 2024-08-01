@@ -13,12 +13,15 @@ function Contact() {
               </span>
             </li>
             <li>
-              <a href="https://github.com/Avin-7">
+              <a target="_blank" href="https://github.com/Avin-7">
                 <ion-icon name="logo-github"></ion-icon>Gitub
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/avin-joy-dcosta-b3b5b7253">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/avin-joy-dcosta-b3b5b7253"
+              >
                 <ion-icon name="logo-linkedin"></ion-icon>
                 Linkedin
               </a>

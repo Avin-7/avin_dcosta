@@ -20,7 +20,10 @@ function Project1() {
                 users stay focused and reduce burnout.
               </p>
               <br />
-              <a href="https://pomodoro-productivity-booster.vercel.app/">
+              <a
+                target="_blank"
+                href="https://pomodoro-productivity-booster.vercel.app/"
+              >
                 View site
               </a>
             </div>
