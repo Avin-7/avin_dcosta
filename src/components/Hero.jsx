@@ -18,7 +18,7 @@ function Hero() {
           together!
         </p>
         <button className="download-my-cv" onClick={downloadFile} type="button">
-          Download CV
+          View Resume
         </button>
       </div>
     </div>

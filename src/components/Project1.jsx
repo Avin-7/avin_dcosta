@@ -1,5 +1,5 @@
 import React from "react";
-import pomodoro from "../assets/pomodoro.png";
+import foczy from "../assets/foczy.png";
 function Project1() {
   return (
     <div>
@@ -7,10 +7,10 @@ function Project1() {
         <div>
           <div className="project1">
             <div className="project-img">
-              <img src={pomodoro} alt="" />
+              <img src={foczy} alt="" />
             </div>
             <div className="project-info">
-              <h2>Pomodoro Timer</h2>
+              <h2>Foczy - Productivity Tool</h2>
               <p>
                 The Pomodoro Timer application helps users manage their time
                 effectively using the Pomodoro Technique.
@@ -19,11 +19,7 @@ function Project1() {
                 Provides a structured approach to working in intervals, helping
                 users stay focused and reduce burnout.
               </p>
-              <br />
-              <a
-                target="_blank"
-                href="https://pomodoro-productivity-booster.vercel.app/"
-              >
+              <a target="_blank" href="https://foczy.vercel.app/">
                 View site
               </a>
             </div>
