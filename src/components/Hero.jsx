@@ -1,9 +1,9 @@
 import React from "react";
 import { MdOpenInNew } from "react-icons/md";
-import Avin_Dcosta_Resume from "../assets/Avin_Dcosta_Resume.pdf";
+import Avin_Joy_Dcosta_Resume from "../assets/Avin_Joy_Dcosta_Resume.pdf";
 function Hero() {
   function downloadFile() {
-    window.open(Avin_Dcosta_Resume);
+    window.open(Avin_Joy_Dcosta_Resume);
   }
 
   return (
